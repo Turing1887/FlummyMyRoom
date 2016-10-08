@@ -1,0 +1,14 @@
+body {
+  background-color: whitesmoke; }
+
+.main {
+  display: block; }
+
+.menuVermieter {
+  display: none; }
+
+.calculator {
+  display: none; }
+
+textarea {
+  resize: none; }
