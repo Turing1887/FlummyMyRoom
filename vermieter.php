@@ -21,16 +21,18 @@
         <![endif]-->
 
         <section class="menuVermieter">
-          <img src="img/Flummimyroom_Logo.png" class="flummylogo">
+          <!-- <img src="img/Flummimyroom_Logo.png" class="flummylogo"> -->
           <nav class="menu-content">
+            <div class="exit-btn" id="exitBtn">X</div>
             <ul>
-              <li id="qm-btn" ><a class="qm-btn">Quadratmeterrechner</a></li>
-              <li><a class="calendar-btn">Event Calendar</a></li>
-              <li><a class="editor-btn">Editor</a></li>
+              <li id="calendar-btn" class="calendar-btn" style="background-image: url('img/event-txt.png');"></li>
+              <li id="flummi-btn" style="background-image: url('img/flummi-txt.png');"></li>
+              <li id="qm-btn" class="qm-btn" style="background-image: url('img/calc-txt.png');"></li>
+              <li class="contact" style="background-image: url('img/contact-txt.png');"></li>
             </ul>
           </nav>
         </section>
-
+<!-- class="editor-btn" -->
         <section class="calculator" style="display:none;">
             <input type="number" id="qm-val"></input>
             <button id="calc-btn">Go!</button>

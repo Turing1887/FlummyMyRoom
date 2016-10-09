@@ -21,12 +21,16 @@
         <![endif]-->
         <section class="main">
           <div class="content">
-            <h2>I am</h2>
-            <div class="mieterBtn" style="background-image: url('img/mieter-txt.png');"></div>
-            <div id="vermieter-btn" class="vermieterBtn" style="background-image: url('img/verm-txt.png');"></div>
+            <div class="burgermenu" id="burgermenu-btn" style="background-image: url('img/burgermenu.png');"></div>
+            <div class="flummihead" style="background-image: url('img/flummi-txt.png');"></div>
+            <div class="qr-container" style="background-image: url('img/action-img.png');"></div>
+            <div class="qr-container2" style="background-image: url('img/action-img2.png');"></div>
+            <div class="qr-container2" style="background-image: url('img/action-img3.png');"></div>
           </div>
         </section>
+        <div class="dropdown">
 
+        </div>
 
         <!--<script src="js/plugins.js"></script>-->
         <script src="js/main.js"></script>

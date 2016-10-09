@@ -8,36 +8,40 @@ html{
 body{
     background-color: white;
     font-family: $main-font;
+
 }
 .main{
     display: block;
     margin: auto;
+    position: relative;
+    top: 100px;
 }
 .content{
   margin: auto;
-  width: 150px;
+  width: 195px;
   text-align: center;
 }
 h2{
   font-size: 18px;
 }
-button{
+.content div{
   padding: 10px;
-  width: 150px;
-  border: 1px solid black;
-  border-radius: 7px;
+  width: 184px;
+  height: 14px;
   background-color: white;
   cursor: pointer;
-  -webkit-box-shadow: 1px 6px 19px -4px rgba(0,0,0,0.75);
-  -moz-box-shadow: 1px 6px 19px -4px rgba(0,0,0,0.75);
-  box-shadow: 1px 6px 19px -4px rgba(0,0,0,0.75);
   &:hover{
     background-color: lightgray;
     transition: background-color 0.3s;
   }
-
 }
 
 .vermieterBtn{
 margin-top: 20px;
+background-size: cover;
+}
+.mieterBtn{
+background-size: 170px 40px;
+width: 151px !important;
+margin-left: 15px;
 }

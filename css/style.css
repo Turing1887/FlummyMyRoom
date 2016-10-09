@@ -7,32 +7,40 @@ body {
 
 .main {
   display: block;
-  margin: auto; }
+  margin: auto;
+  position: relative;
+  top: 100px; }
 
 .content {
   margin: auto;
-  width: 150px;
+  width: 195px;
   text-align: center; }
 
 h2 {
   font-size: 18px; }
 
-button {
+.content div {
   padding: 10px;
-  width: 150px;
-  border: 1px solid black;
-  border-radius: 7px;
+  width: 184px;
+  height: 14px;
   background-color: white;
-  cursor: pointer;
-  -webkit-box-shadow: 1px 6px 19px -4px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 1px 6px 19px -4px rgba(0, 0, 0, 0.75);
-  box-shadow: 1px 6px 19px -4px rgba(0, 0, 0, 0.75); }
-  button:hover {
+  cursor: pointer; }
+  .content div:hover {
     background-color: lightgray;
     transition: background-color 0.3s; }
 
 .vermieterBtn {
-  margin-top: 20px; }
+  margin-top: 20px;
+  background-size: cover; }
+
+.mieterBtn {
+  background-size: 170px 40px;
+  width: 151px !important;
+  margin-left: 15px; }
+
+.menu-content {
+  margin: auto;
+  height: 350px; }
 
 a {
   text-decoration: none;
@@ -41,27 +49,128 @@ a {
     color: black; }
 
 li {
+  margin-left: 15px;
   list-style: none;
   display: inline-block;
-  padding: 20px;
-  border: 1px solid black;
+  width: 250px;
+  height: 50px;
   border-right: none;
-  float: left;
+  margin-top: 20px;
+  background-size: 242px 46px;
+  background-repeat: no-repeat;
   cursor: pointer; }
-  li:last-child {
-    border-right: 1px solid black; }
-  li:hover {
-    background-color: lightgray;
-    transition: background-color 0.3s; }
-
-ul {
-  position: absolute;
-  left: 70px;
-  top: -17px;
-  padding-left: 0;
-  -webkit-box-shadow: 2px 4px 24px -2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 4px 24px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 4px 24px -2px rgba(0, 0, 0, 0.75); }
+  li:focus {
+    outline: 0; }
 
 .flummylogo {
   height: 50px; }
+
+.exit-btn {
+  font-size: 33px;
+  font-weight: bold;
+  position: relative;
+  right: -275px; }
+
+.qr-container {
+  height: 380px !important;
+  width: 230px !important;
+  background-size: cover;
+  position: relative;
+  right: 20px; }
+
+.flummihead {
+  background-size: cover;
+  width: 260px !important;
+  position: relative;
+  right: 30px;
+  top: -50px; }
+
+.burgermenu {
+  height: 50px !important;
+  width: 50px !important;
+  background-size: cover;
+  position: relative;
+  left: 200px;
+  top: -100px; }
+
+.qr-container2 {
+  margin-top: 20px;
+  height: 275px !important;
+  width: 230px !important;
+  background-size: cover;
+  position: relative;
+  right: 20px; }
+
+.whatyougive {
+  width: 160px;
+  text-align: center;
+  margin: auto; }
+
+.qm-header {
+  background-size: cover;
+  width: 240px;
+  height: 45px;
+  margin: auto; }
+
+input {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-bottom: 5px solid black;
+  margin-left: 100px;
+  font-size: 40px;
+  text-align: center; }
+  input:focus {
+    outline: none; }
+
+.equals {
+  font-size: 40px;
+  margin: auto; }
+
+.calc-btn {
+  margin: auto;
+  margin-top: 20px;
+  width: 70px; }
+
+#calc-btn {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 7px;
+  font-size: 35px; }
+
+label {
+  font-size: 40px; }
+
+.event-headline {
+  display: inline; }
+
+.event1 {
+  height: 364px !important;
+  width: 250px !important;
+  background-size: cover;
+  margin: auto;
+  margin-top: 50px; }
+
+.event2 {
+  height: 364px !important;
+  width: 250px !important;
+  background-size: cover;
+  margin: auto;
+  margin-top: 50px; }
+
+#backbtn {
+  position: relative;
+  bottom: 370px;
+  left: 210px;
+  height: 40px;
+  width: 40px; }
+
+#nextbtn {
+  position: relative;
+  bottom: 410px;
+  left: 260px;
+  height: 40px;
+  width: 40px; }
+
+.back2menu {
+  font-size: 40px; }

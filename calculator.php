@@ -19,12 +19,19 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-
+        <div class="back2menu">&laquo;</div>
         <section class="calculator">
-            <input type="number" id="qm-val"></input>
-            <button id="calc-btn">Go!</button>
-
+          <div class="qm-header" style="background-image: url('img/calc-txt.png');"></div>
+          <div class="whatyougive">
+            <h3><strong>What you give is what you get.</strong></h3>
+            <h3><strong>How much room can you share?</strong></h3>
+          </div>
+            <input type="number" id="qm-val" class="qm-input" name="qm-input"><label for="qm-input">m²</label>
+            <div class="equals">=</div>
+            <input type="number" id="qm-val-out" class="qm-output" name="qm-input" readonly><label for="qm-input">€</label>
+            <div class="calc-btn">
+              <button id="calc-btn">Go!</button>
+            </div>
         </section>
 
         <!--<script src="js/plugins.js"></script>-->

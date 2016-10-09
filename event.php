@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="no-js" lang="">
     <head>
@@ -13,20 +14,23 @@
         <!--<link rel="stylesheet" href="css/normalize.css">-->
         <link rel="stylesheet" href="css/style.css">
       <link rel="shortcut icon" href="img/faviconFl.ico" type="image/x-icon">
-<link rel="icon" href="img/faviconFl.ico" type="image/x-icon">
+      <link rel="icon" href="img/faviconFl.ico" type="image/x-icon">
     </head>
-    <body>
+    <body link="black" vlink="black">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <section class="main">
-          <div class="content">
-            <h2>I am</h2>
-            <div class="mieterBtn" style="background-image: url('img/mieter-txt.png');"></div>
-            <div id="vermieter-btn" class="vermieterBtn" style="background-image: url('img/verm-txt.png');"></div>
+        <div class="back2menu">&laquo;</div>
+        <section class="calculator">
+          <div class="qm-header" style="background-image: url('img/event-txt.png');"></div>
+          <div class="event-headline">
+            <div class="event1" style="background-image: url('img/event2.png');"></div>
+            <div class="event2" style="background-image: url('img/event1.png');"></div>
+            <div id="backbtn"></div>
+            <div id="nextbtn"></div>
           </div>
-        </section>
 
+        </section>
 
         <!--<script src="js/plugins.js"></script>-->
         <script src="js/main.js"></script>

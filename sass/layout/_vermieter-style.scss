@@ -1,5 +1,6 @@
 .menu-content{
-
+ margin: auto;
+ height: 350px;
 }
 a{
   text-decoration: none;
@@ -8,31 +9,32 @@ a{
     color: black;
   }
 }
+
 li{
+
+  margin-left: 15px;
   list-style: none;
   display: inline-block;
-  padding: 20px;
-  border: 1px solid black;
+  width: 250px;
+  height: 50px;
   border-right: none;
-  float: left;
+  margin-top: 20px;
+  background-size: 242px 46px;
+  background-repeat: no-repeat;
   cursor: pointer;
-  &:last-child{
-    border-right: 1px solid black;
-  }
-  &:hover{
-    background-color: lightgray;
-    transition: background-color 0.3s;
+
+  &:focus{
+    outline: 0;
   }
 }
 ul{
-  position: absolute;
-  left: 70px;
-  top: -17px;
-  padding-left: 0;
-  -webkit-box-shadow: 2px 4px 24px -2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 2px 4px 24px -2px rgba(0,0,0,0.75);
-  box-shadow: 2px 4px 24px -2px rgba(0,0,0,0.75);
 }
 .flummylogo{
   height: 50px;
+}
+.exit-btn{
+  font-size: 33px;
+  font-weight: bold;
+  position: relative;
+  right: -275px;
 }
