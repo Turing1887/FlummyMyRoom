@@ -1,0 +1,43 @@
+$primary-color: whitesmoke;
+$main-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+html{
+  height:100%;
+}
+
+body{
+    background-color: white;
+    font-family: $main-font;
+}
+.main{
+    display: block;
+    margin: auto;
+}
+.content{
+  margin: auto;
+  width: 150px;
+  text-align: center;
+}
+h2{
+  font-size: 18px;
+}
+button{
+  padding: 10px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: white;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 6px 19px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 6px 19px -4px rgba(0,0,0,0.75);
+  box-shadow: 1px 6px 19px -4px rgba(0,0,0,0.75);
+  &:hover{
+    background-color: lightgray;
+    transition: background-color 0.3s;
+  }
+
+}
+
+.vermieterBtn{
+margin-top: 20px;
+}

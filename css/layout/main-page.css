@@ -1,0 +1,22 @@
+html {
+  height: 100%; }
+
+body {
+  background-color: white; }
+
+.main {
+  display: block;
+  margin: auto; }
+
+.content {
+  margin: auto;
+  width: 120px; }
+
+textarea {
+  resize: none; }
+
+h2 {
+  font-size: 18px; }
+
+.mieterBtn {
+  margin: auto; }
